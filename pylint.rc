@@ -33,12 +33,16 @@ load-plugins=
 # can either give multiple identifier separated by comma (,) or put this option
 # multiple time (only on the command line, not in the configuration file where
 # it should appear only once).
+# C0301 line too long - I'll decide and it's not respecting max-line-length
 # C0111 no docstring
 # C0103 invalid variable name - pops up on convenience variables in tests
+# E1101 module has no such member - doesn't see inheritance in Django project
+# F0401 can't import models
 # HIDDEN BECAUSE OF TEST CASES
 # R0904 too many methods
 # R0913 too many arguments
-disable=C0111,C0103,R0904,R0913
+# W0142 * or ** magic
+disable=C0301,C0111,C0103,E1101,F0401,R0904,R0913,W0142
 
 
 [REPORTS]
