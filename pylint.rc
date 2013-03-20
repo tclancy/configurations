@@ -38,13 +38,15 @@ load-plugins=
 # C0103 invalid variable name - pops up on convenience variables in tests
 # E1101 module has no such member - doesn't see inheritance in Django project
 # F0401 can't import models
+# R0201 method could be a function - I know when I want a class method
 # HIDDEN BECAUSE OF TEST CASES
 # R0903 too few public methods
 # R0904 too many methods
 # R0913 too many arguments
 # W0142 * or ** magic
 # W0232 no init
-disable=C0301,C0111,C0103,E1101,F0401,R0903,R0904,R0913,W0142,W0232
+# W0703 catching generic exception - if I do it, I meant to
+disable=C0301,C0111,C0103,E1101,E126,E128,E123,F0401,R0201,R0903,R0904,R0913,W0142,W0232,W0703
 
 
 [REPORTS]
