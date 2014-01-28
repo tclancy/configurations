@@ -1,0 +1,29 @@
+[user]
+	email = tclancy@gmail.com
+	name = Tom Clancy
+[core]
+	excludesfile = C:\\Users\\Tom\\.gitignore
+	autocrlf = false
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	pu = push -u origin
+	lg = git log --graph --all --pretty=format:'%Cred%h%Creset - %Cgreen(%cr)%Creset %s%C(yellow)%d%Creset' --abbrev-commit --date=relative
+	pr = pull --rebase
+	sr = svn rebase
+	rbd = push origin --delete 
+[gui]
+	recentrepo = C:/Users/Tom/Desktop/utilities/tkc-django-utilities
+[gitgoggles "icons"]
+	unknown = ?
+	success = +
+	failure = -
+[merge]
+	tool = bc3
+[mergetool "bc3"]
+	path = "c:/program files (x86)/beyond compare 3/bcomp.exe"
+[diff]
+	tool = bc3
+[difftool "bc3"]
+	path = "c:/program files (x86)/beyond compare 3/bcomp.exe"
