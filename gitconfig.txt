@@ -13,12 +13,6 @@
 	pr = pull --rebase
 	sr = svn rebase
 	rbd = push origin --delete 
-[gui]
-	recentrepo = C:/Users/Tom/Desktop/utilities/tkc-django-utilities
-[gitgoggles "icons"]
-	unknown = ?
-	success = +
-	failure = -
 [merge]
 	tool = bc3
 [mergetool "bc3"]
@@ -27,3 +21,5 @@
 	tool = bc3
 [difftool "bc3"]
 	path = "c:/program files (x86)/beyond compare 3/bcomp.exe"
+[push]
+	default = current
